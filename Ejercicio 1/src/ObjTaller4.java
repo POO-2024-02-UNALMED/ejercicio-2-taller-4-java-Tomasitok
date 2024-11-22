@@ -12,6 +12,9 @@ public class ObjTaller4 {
         
         Vehiculo auto2 = new Vehiculo("TXT-452", Motor.GASOLINA);
         
+        System.out.println(auto2.getMotor().getVelocidadMaxima());
+        auto.getDueno().setMejorAmigo(personas[2]);
+        
         personas[0] = null;
         personas[1] = personas[2];
         personas[4] = null;
